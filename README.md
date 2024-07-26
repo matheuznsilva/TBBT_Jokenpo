@@ -42,3 +42,15 @@ O projeto está funcional, sem modificações previstas.
 **Conquistas Atuais:**
 - Funcionalidades básicas implementadas com sucesso.
 - Interface do usuário (UI) está operacional.
+
+## Regras do jogo
+A tesoura corta o papel
+O papel cobre a pedra
+A pedra esmaga o lagarto
+O lagarto envenena o Spock
+O Spock quebra a tesoura
+A tesoura decapita o lagarto
+O lagarto come o papel
+O papel refuta o Spock
+O Spock vaporiza a pedra
+e como sempre a Pedra amassa a tesoura
