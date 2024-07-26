@@ -3,7 +3,7 @@ from random import randint
 def user_interface(options):
     for index, options in enumerate(options):
         print(f'{index} = {options}')
-    return int(input('Digite sua escolha? '))
+    return int(input('\nDigite sua escolha? '))
     
 def computer_choice(content):
     return randint(0, len(content)-1)
@@ -13,12 +13,12 @@ def check_result(choices, player, computer, rules):
         return 'Empate'
     
     if choices[computer] in rules[choices[player]]:
-        return 'Jogador ganhou'
+        return 'Você ganhou'
 
-    return 'Computador ganhou'
+    return 'O Computador ganhou'
 
 def play():
-    print('\nBem vindo ao Pedra, Papel, Tesoura, Lagarto, Spock\n\n')
+    print('\nBem vindo ao Pedra, Papel, Tesoura, Lagarto, Spock\n')
 
     optionsList = ['Pedra', 'Papel', 'Tesoura', 'Lagarto', 'Spock']
 
@@ -42,7 +42,7 @@ def main():
     playAgain = ''
     while playAgain.lower() != 'n':
         play()
-        print(f'Deseja jogar novamente? ')
-        playAgain = input('type \'S\' para sim ou \'n\' para não: ')
+        print(f'\nDeseja jogar novamente? ')
+        playAgain = input('Digite \'S\' para sim ou \'N\' para não: ')
 
 main()
